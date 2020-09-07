@@ -1,0 +1,8 @@
+echo "# README" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/rebeltech92/README.git
+git push -u origin master
+                
